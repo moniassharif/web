@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>استمارة التسجيل</title>
+</head>
+<body>
+    <h1>استمارة التسجيل</h1>
+
+    <form>
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">كلمة المرور:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">تأكيد كلمة المرور:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <label for="age">العمر:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="gender">الجنس:</label>
+        <select id="gender" name="gender">
+            <option value="male">ذكر</option>
+            <option value="female">أنثى</option>
+        </select>
+
+        <label for="agree">أوافق على الشروط والأحكام:</label>
+        <input type="checkbox" id="agree" name="agree" required>
+
+        <input type="submit" value="تسجيل">
+    </form>
+</body>
+</html>
